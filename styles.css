@@ -12,6 +12,12 @@ nav {
     padding: 0.5em;
 }
 
+p {
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
 h1 {
     font-size: 2em;
     margin-bottom: 1em;
@@ -202,12 +208,6 @@ footer {
     font-family: "Baskervville", serif;
     font-optical-sizing: auto;
     font-weight: 700;
-    font-style: normal;
-}
-
-.barlow-regular {
-    font-family: "Barlow", sans-serif;
-    font-weight: 400;
     font-style: normal;
 }
 
