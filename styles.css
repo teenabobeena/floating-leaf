@@ -175,6 +175,12 @@ p + p {
     border: none;
 }
 
+.footer {
+    width: 100%;
+    height: auto;
+    margin-top: 1em;
+}
+
 #photog {
     margin: 1em 0;
 }
