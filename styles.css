@@ -76,6 +76,75 @@ hr {
     margin-bottom: 1em;
 }
 
+.book {
+    align-self: flex-start;
+}
+
+.album {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(11, 1fr);
+    gap: 0px;
+}
+    
+.album img {
+    height: auto;
+    width: 100%;
+    object-fit: contain;
+    display: block;
+}
+
+.div3 {
+    grid-column: span 2 / span 2;
+}
+
+.div4 {
+    grid-column: span 2 / span 2;
+    grid-row-start: 3;
+}
+
+.div5 {
+    grid-column: span 2 / span 2;
+    grid-row-start: 4;
+}
+
+.div6 {
+    grid-column: span 2 / span 2;
+    grid-row-start: 5;
+}
+
+.div7 {
+    grid-row-start: 6;
+}
+
+.div8 {
+    grid-row-start: 6;
+}
+
+.div9 {
+    grid-column: span 2 / span 2;
+}
+
+.div10 {
+    grid-column: span 2 / span 2;
+    grid-row-start: 8;
+}
+
+.div11 {
+    grid-column: span 2 / span 2;
+    grid-row-start: 9;
+}
+
+.div12 {
+    grid-column: span 2 / span 2;
+    grid-row-start: 10;
+}
+
+.div13 {
+    grid-column: span 2 / span 2;
+    grid-row-start: 11;
+}
+
 #photog {
     margin: 1em 0;
 }
