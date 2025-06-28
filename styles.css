@@ -47,6 +47,14 @@ p + p {
     margin-top: 1em;
 }
 
+footer {
+    background-color: rgb(85, 84, 84);
+    color: lightgray;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
 .hero {
     position: relative;
     width: 100vw;
