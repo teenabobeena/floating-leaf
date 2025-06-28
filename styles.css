@@ -16,8 +16,7 @@ h1 {
     margin-bottom: 1em;
 }
 
-h1, p {
-    /*color: rgb(202, 198, 198);*/
+.hero h1, .hero p {
     color: white;
 }
 
@@ -56,10 +55,6 @@ hr {
     display: flex;
     align-items: center;
     flex-direction: column;
-}
-
-.about > p {
-    color: black;
 }
 
 .about > h2 {
