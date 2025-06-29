@@ -113,6 +113,10 @@ footer {
 
 .book {
     align-self: flex-start;
+    text-decoration: none;
+    color: black;
+    margin-top: 6em;
+    margin-bottom: 4em;
 }
 
 .album {
