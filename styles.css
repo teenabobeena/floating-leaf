@@ -211,6 +211,51 @@ footer {
     font-style: normal;
 }
 
+.menu-toggle {
+    cursor: pointer;
+    width: 30px;
+    height: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.bar {
+    height: 4px;
+    width: 100%;
+    border-radius: 2px;
+    transition: 0.4s;
+    color: black;
+    background-color: white;
+}
+
+.nav-links {
+    display: none;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    padding: 10px 0;
+}
+
+.menu-open .bar1 {
+    transform: rotate(45deg) translate(5px, 5px);
+}
+
+.menu-open .bar2 {
+    opacity: 0;
+}
+
+.menu-open .bar3 {
+    transform: rotate(-45deg) translate(6px, -6px);
+}
+
+.menu-open .nav-links {
+    display: flex;
+}
+
 #photog {
     margin: 1em 0;
 }
