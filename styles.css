@@ -47,6 +47,14 @@ form {
     display: inline-block;
 }
 
+label {
+    font-size: 0.8em;
+}
+
+input {
+    padding-top: 1em;
+}
+
 p + p {
     margin-top: 1em;
 }
