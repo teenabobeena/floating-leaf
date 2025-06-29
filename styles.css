@@ -188,6 +188,16 @@ footer {
 .contact {
     padding-top: 2em;
     padding-left: 1em;
+    color: rgb(85, 84, 84);
+}
+
+.contact hr {
+    margin: 1em 0;
+    width: 10%;
+}
+
+.contact p:last-of-type {
+    margin-bottom: 1.5em;
 }
 
 .sub input {
