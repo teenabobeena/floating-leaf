@@ -32,7 +32,7 @@ label {
 }
 
 input, textarea {
-    width: 95%;
+    width: 100%;
 }
 
 .hero h1, .hero p {
@@ -53,7 +53,7 @@ input {
 }
 
 p + p {
-    margin-top: 1em;
+    margin-top: 0.5em;
 }
 
 footer {
@@ -208,6 +208,7 @@ footer {
 .contact {
     padding-top: 2em;
     padding-left: 1em;
+    padding-right: 1em;
     color: rgb(85, 84, 84);
 }
 
@@ -225,7 +226,7 @@ footer {
 }
 
 .button button {
-    width: 95%;
+    width: 100%;
     padding-top: 1em;
     padding-bottom: 1em;
     background-color: rgb(85, 84, 84);
