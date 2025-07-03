@@ -35,7 +35,7 @@ input, textarea {
 }
 
 .hero h1, .hero p {
-    color: rgb(41, 41, 41);
+    color: rgb(235, 234, 234);
 }
 
 hr {
@@ -80,10 +80,11 @@ footer {
     position: relative;
     width: 100vw;
     height: 100vh;
-    background: url('./photos/long5.jpg') center / cover no-repeat;
+    background: url('./photos/long.jpg') center / cover no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 5em;
 }
 
 .hero .overlay {
@@ -94,7 +95,12 @@ footer {
     height: 100%;
     background-color: rgba(28, 253, 234, 0.2);
     z-index: 1;
-  }
+}
+
+.bodhi-leaf {
+    width: 80px;
+    margin-bottom: 1em;
+}
 
 .name {
     display: flex;
