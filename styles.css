@@ -28,6 +28,7 @@ label {
     display: inline-block;
     min-width: 90px;
     font-size: 0.8em;
+    margin-bottom: 0.5em;
 }
 
 input, textarea {
@@ -35,7 +36,7 @@ input, textarea {
 }
 
 .hero h1, .hero p {
-    color: rgb(235, 234, 234);
+    color: rgb(41, 41, 41);
 }
 
 hr {
@@ -45,6 +46,10 @@ hr {
 
 form {
     display: inline-block;
+}
+
+form p {
+    color: black;
 }
 
 input {
@@ -85,7 +90,7 @@ footer a {
     position: relative;
     width: 100vw;
     height: 100vh;
-    background: url('./photos/long.jpg') center / cover no-repeat;
+    background: url('./photos/long5.jpg') center / cover no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -277,7 +282,6 @@ hr.short-rule {
     height: auto;
     margin-top: 1em;
 }
-
 
 .baskervville-regular {
     font-family: "Baskervville", serif;
