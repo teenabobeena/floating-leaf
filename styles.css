@@ -60,7 +60,12 @@ footer {
     color: lightgray;
     text-align: center;
     padding-top: 1em;
-    padding-bottom: 1em;
+    padding-bottom: 2em;
+}
+
+footer a {
+    font-size: 2em;
+    color: rgb(235, 234, 234);
 }
 
 .socials a {
