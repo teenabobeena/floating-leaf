@@ -17,11 +17,17 @@ p {
     font-family: "Barlow", sans-serif;
     font-weight: 400;
     font-style: normal;
+    color: rgb(85, 84, 84);
 }
 
 h1 {
     font-size: 2em;
     margin-bottom: 1em;
+}
+
+h2 {
+    color: black;
+    letter-spacing: 0.1em;
 }
 
 label {
@@ -33,6 +39,12 @@ label {
 
 input, textarea {
     width: 100%;
+    padding-top: 0.6em;
+    padding-bottom: 0.6em;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
 }
 
 .hero h1, .hero p {
