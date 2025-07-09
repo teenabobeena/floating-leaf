@@ -64,8 +64,8 @@ footer {
     background-color: rgb(85, 84, 84);
     color: lightgray;
     text-align: center;
-    padding-top: 1em;
     padding-bottom: 2em;
+    overflow: hidden;
 }
 
 footer a {
@@ -251,7 +251,7 @@ hr.short-rule {
 .contact {
     padding-top: 2em;
     padding-left: 1em;
-    padding-right: 1em;
+    
     color: rgb(85, 84, 84);
 }
 
@@ -280,7 +280,7 @@ hr.short-rule {
 .footer {
     width: 100%;
     height: auto;
-    margin-top: 1em;
+    margin-top: 0;
 }
 
 .baskervville-regular {
