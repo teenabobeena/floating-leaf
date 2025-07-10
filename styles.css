@@ -60,7 +60,7 @@ form {
     display: inline-block;
 }
 
-form p {
+form p, footer p {
     color: black;
 }
 
