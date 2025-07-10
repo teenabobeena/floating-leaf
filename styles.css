@@ -93,11 +93,12 @@ footer img {
 }
 
 footer p:first-of-type {
+    margin-top: 3em;
     font-size: 2em;
 }
 
 footer p:last-of-type {
-    color: rgb(85, 84, 84);
+    color: rgb(134, 134, 134);
 }
 
 .socials a {
