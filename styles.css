@@ -92,6 +92,14 @@ footer img {
     margin-bottom: 2em;
 }
 
+footer p:first-of-type {
+    font-size: 2em;
+}
+
+footer p:last-of-type {
+    color: rgb(85, 84, 84);
+}
+
 .socials a {
     color: white;
     border-radius: 50%;
