@@ -1,8 +1,15 @@
 const toggle = document.getElementById('menu-toggle');
 const nav = document.querySelector('nav');
+const navLinks = document.querySelectorAll('#nav-links a');
 
 toggle.addEventListener('click', () => {
     nav.classList.toggle('menu-open');
+});
+
+navLinks.forEach(link => {
+    link.addEventListener('click', () => {
+        nav.classList.remove('menu-open');
+    });
 });
 
 function setHeroHeight() {
