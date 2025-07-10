@@ -93,8 +93,9 @@ footer img {
 }
 
 footer p:first-of-type {
-    margin-top: 3em;
+    margin-top: 2em;
     font-size: 2em;
+    letter-spacing: 0.05em;
 }
 
 footer p:last-of-type {
