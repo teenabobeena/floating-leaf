@@ -95,11 +95,12 @@ footer img {
 footer p:first-of-type {
     margin-top: 1em;
     font-size: 2em;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.04em;
 }
 
 footer p:last-of-type {
     color: rgb(134, 134, 134);
+    letter-spacing: 0.02em;
 }
 
 .socials a {
