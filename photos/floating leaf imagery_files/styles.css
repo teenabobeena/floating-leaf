@@ -1,0 +1,437 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5em;
+    position: relative;
+    padding: 1.5em 1em;
+}
+
+p {
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(85, 84, 84);
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+h2 {
+    color: black;
+    letter-spacing: 0.07em;
+}
+
+label {
+    display: inline-block;
+    min-width: 90px;
+    font-size: 0.8em;
+    margin-bottom: 0.5em;
+}
+
+input, textarea {
+    width: 100%;
+    padding-top: 0.6em;
+    padding-bottom: 0.6em;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.hero h1, .hero p {
+    color: rgb(235, 234, 234);
+}
+
+hr {
+    width: 40%;
+    margin: auto;
+}
+
+form {
+    display: inline-block;
+}
+
+form p {
+    color: black;
+}
+
+input {
+    padding-top: 1em;
+}
+
+p + p {
+    margin-top: 0.5em;
+}
+
+footer {
+    background-color: rgb(85, 84, 84);
+    color: lightgray;
+    text-align: center;
+    padding-bottom: 2em;
+}
+
+footer a {
+    font-size: 2em;
+    color: rgb(235, 234, 234);
+}
+
+footer p {
+    color: rgb(235, 234, 234);
+}
+
+footer img {
+    margin-bottom: 2em;
+}
+
+footer p:first-of-type {
+    margin-top: 0.3em;
+    font-size: 1.5em;
+    letter-spacing: 0.04em;
+}
+
+footer p:last-of-type {
+    color: rgb(134, 134, 134);
+    letter-spacing: 0.02em;
+    margin-top: 2em;
+}
+
+.socials a {
+    color: white;
+    border-radius: 50%;
+    display: inline-flex;
+    margin-right: 0.4em;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: black;
+}
+
+.hero {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background: url('./photos/long6.jpg') center / cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5em;
+}
+
+.hero .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(225, 226, 226, 0.2);
+    z-index: 1;
+}
+
+.bodhi-leaf {
+    width: 80px;
+    margin-bottom: 1em;
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name > hr {
+    color: rgb(41, 41, 41);
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.about > h2 {
+    align-self: flex-start;
+}
+
+.about hr {
+    width: 60px;
+    align-self: flex-start;
+    margin: 1.5em 0 1.5em 0;
+}
+
+.about p {
+    margin-bottom: 1em;
+}
+
+hr.short-rule {
+    width: 10%;
+}
+
+.book {
+    align-self: flex-start;
+    text-decoration: none;
+    color: black;
+    margin-top: 6em;
+    margin-bottom: 4em;
+}
+
+.album {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: auto;
+    gap: 0px;
+}
+    
+.album img {
+    height: auto;
+    width: 100%;
+    object-fit: contain;
+    display: block;
+}
+
+.album > .div1,
+.album > .div2,
+.album > .div7,
+.album > .div8 {
+    aspect-ratio: 1 / 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.div3 {
+    grid-column: span 2 / span 2;
+    grid-row-start: 2;
+}
+
+.div4 {
+    grid-column: span 2 / span 2;
+    grid-row-start: 3;
+}
+
+.div5 {
+    grid-column: span 2 / span 2;
+    grid-row-start: 4;
+}
+
+.div6 {
+    grid-column: span 2 / span 2;
+    grid-row-start: 5;
+}
+
+.div7 {
+    grid-row-start: 6;
+}
+
+.div8 {
+    grid-row-start: 6;
+}
+
+.div9 {
+    grid-column: span 2 / span 2;
+}
+
+.div10 {
+    grid-column: span 2 / span 2;
+    grid-row-start: 8;
+}
+
+.div11 {
+    grid-column: span 2 / span 2;
+    grid-row-start: 9;
+}
+
+.div12 {
+    grid-column: span 2 / span 2;
+    grid-row-start: 10;
+}
+
+.div13 {
+    grid-column: span 2 / span 2;
+    grid-row-start: 11;
+}
+
+.image-text-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.overlay-text {
+    position: absolute;
+    bottom: 50px;
+    left: 30px;
+    color: rgb(235, 234, 234);
+    font-size: 1.5em;
+    line-height: 2;
+}
+
+.contact {
+    padding-top: 2em;
+    padding-left: 1em;
+    
+    color: rgb(85, 84, 84);
+}
+
+.contact hr {
+    margin: 1em 0;
+    width: 10%;
+}
+
+.contact p:last-of-type {
+    margin-bottom: 1.5em;
+}
+
+.sub input {
+    width: unset;
+}
+
+.button button {
+    width: 100%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-color: rgb(85, 84, 84);
+    color: rgb(235, 234, 234);
+    border: none;
+}
+
+.footer {
+    width: 100%;
+    height: auto;
+    margin-top: 0;
+}
+
+.baskervville-regular {
+    font-family: "Baskervville", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.baskervville-bold {
+    font-family: "Baskervville", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.menu-toggle {
+    cursor: pointer;
+    width: 30px;
+    height: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    z-index: 10;
+}
+
+.bar {
+    height: 3px;
+    width: 100%;
+    border-radius: 2px;
+    transition: 0.4s;
+    background-color: black;
+}
+
+.nav-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    padding: 1em;
+    z-index: 999;
+    background-color: white;
+}
+
+.nav-links a {
+    text-decoration: none;
+    padding: 10px 0;
+    color: black;
+    text-align: center;
+    font-size: 0.75em;
+}
+
+.nav-links a:first-of-type {
+    text-transform: none;
+    font-size: 0.5em;
+}
+
+.menu-open .bar1 {
+    transform: rotate(45deg);
+    transform-origin: top left;
+}
+
+.menu-open .bar2 {
+    opacity: 0;
+}
+
+.menu-open .bar3 {
+    transform: rotate(-45deg);
+    transform-origin: bottom left;
+}
+
+nav.menu-open > .nav-links {
+    display: flex !important;
+}
+
+/*pricing styles*/
+.pricing {
+    padding: 2em 1em;
+    background-color: #f5f5f5;
+    text-align: center;
+  }
+  
+  .pricing-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2em;
+    margin-top: 2em;
+  }
+  
+  .price-card {
+    background: white;
+    padding: 1.5em;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.05);
+  }
+  
+  .price-card h3 {
+    font-family: "Baskervville", serif;
+    margin-bottom: 0.5em;
+  }
+  
+  .price-card .price {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+  }
+  
+
+#photog {
+    margin: 1em 0;
+}
+
+#my-photo {
+    width: 90vw;
+    height: auto;
+    margin: 2em auto;
+    display: block;
+}
