@@ -10,7 +10,7 @@ nav {
     align-items: center;
     font-size: 1.5em;
     position: relative;
-    padding: 1.5em 1em;
+    padding: 1em 1em;
 }
 
 p {
@@ -282,7 +282,6 @@ hr.short-rule {
 .contact {
     padding-top: 2em;
     padding-left: 1em;
-    
     color: rgb(85, 84, 84);
 }
 
@@ -449,3 +448,10 @@ nav.menu-open > .nav-links {
     margin: 2em auto;
     display: block;
 }
+
+@media (min-width: 600px) and (max-width: 768px) {
+    .overlay-text {
+        left: 50%;
+        margin-right: 1em;
+    }
+}  
