@@ -34,17 +34,46 @@
             </div>
         </nav>
     </header>
-    <section class="hero">
-        <div class="overlay"></div>
-        <div class="name">
-            <img src="../photos/bodhi-leaf.svg" class="bodhi-leaf" alt="">
-            <h1 class="baskervville-bold">Lewis Franklin Robards</h1>
-            <hr>
-            <p id="photog">photographer</p>
-            <hr>
-        </div>
-    </section>
-   
+    <section id="booking" class="booking-section contact">
+        <h2 id="top">Book a Session</h2>
+        <hr class="short-rule">
+        <form action="https://formspree.io/f/your-form-id" method="POST">
+          
+          <label for="name">Full Name*</label>
+          <input type="text" id="name" name="name" required>
+      
+          <label for="email">Email Address*</label>
+          <input type="email" id="email" name="email" required>
+      
+          <label for="phone">Phone Number*</label>
+          <input type="tel" id="phone" name="phone" required>
+      
+          <label for="session-type">Type of Session*</label>
+          <select id="session-type" name="session-type" required>
+            <option value="">-- Please choose --</option>
+            <option value="wedding">Wedding</option>
+            <option value="family">Family Portrait</option>
+            <option value="headshot">Headshot</option>
+            <option value="event">Event Photography</option>
+            <option value="other">Other</option>
+          </select>
+      
+          <label for="date">Preferred Date*</label>
+          <input type="date" id="date" name="date" required>
+      
+          <label for="time">Preferred Time</label>
+          <input type="time" id="time" name="time">
+      
+          <label for="location">Location (if known)</label>
+          <input type="text" id="location" name="location">
+      
+          <label for="message">Additional Details</label>
+          <textarea id="message" name="message" rows="5" placeholder="Tell us about your vision, number of people, location ideas, etc."></textarea>
+      
+          <button class="button" type="submit">Submit Booking Request</button>
+        </form>
+      </section>
+      
 <footer>
     <a href="#top"><i class="fa-solid fa-chevron-up"></i></a>
     <p>Back to top</p>
